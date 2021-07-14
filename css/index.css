@@ -55,6 +55,34 @@
 	background-color: white;
 		}	
 	/*-------------------------banner--------------------*/
+	.card-hapo {
+	margin-top: 40px;
+	width: 80%;
+		}
+	.container
+	.card-body h5 {
+		color: #B2D235;
+		}
+	.container
+	.card-body a {
+	background-color: #B2D235;
+	border: none;
+	border-radius: 22px;
+	width: 250px;
+		}
+	.other-courses h1 {
+	margin-top: 30px;
+		}
+	.other-courses h2 {
+	font-size: 30px;
+	color: #B2D235;
+		}
+	.view-courses h1 {
+	color: #B2D235;
+	margin-top: 40px;
+	margin-bottom: 90px;
+		}
+/*----------------cart hapo------------------*/		
 			}
 
 	@media only screen and (max-width: 800px) and (min-width: 700px) {		
@@ -119,7 +147,38 @@
 	 position: relative;
 	 width: 100%;
 			  }	
-	/* -------------------banner----------------------*/	
+	/* -------------------banner----------------------*/
+	.container {
+	margin-top: 40px;
+		}
+	.card-body span {
+	display: none;
+		}
+	.container
+	.card-body h5 {
+	color: #B2D235;
+		}
+	.container
+	.card-body a {
+	background-color: #B2D235;
+	border: none;
+	border-radius: 22px;
+	width: 150px;
+		}
+	.other-courses h1 {
+	margin-top: 40px;
+		}
+	.other-courses h2 {
+	font-size: 40px;
+	color: #B2D235;
+	margin-top: -30px;
+		}
+	.view-courses h1 {
+	color: #B2D235;
+	margin-top: 60px;
+	margin-bottom: 90px;
+		}	
+/*-------------------cart hapo------------------*/
 			}
 
 	@media only screen and (max-width: 1500px) and (min-width:1200px) {
@@ -183,4 +242,48 @@
 	width: 100%;	
 			  }	
 	/*------------------------banner-----------*/	
+	.other-courses h1 {
+	margin-top: 50px;
+			}
+	.other-courses h2 {
+	font-size: 50px;
+	color: #B2D235;
+	margin-top: -50px;
+	margin-bottom: 90px;
+			}
+	.view-courses h1 {
+	color: #B2D235;
+	margin-top: 80px;
+	margin-bottom: 120px;
+			}	
+	.container {
+	margin-top: 30px;
+			}
+	.container
+	.card-body h5 {
+	color: #B2D235;
+		}
+	.container
+	.card-body a {
+	background-color: #B2D235;
+	border: none;
+	border-radius: 22px;
+	width: 200px;
+		}
+/*    CARt -------------------------------*/	
 				}
+
+/*----------general use----------------------*/
+.why-hapo img:nth-child(1) {
+width: 100%;
+		}
+.card-hapo img {
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+box-shadow: 1px 1px 12px #888888;
+	}
+.card-body {
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+box-shadow: 1px 1px 5px #888888;
+	}
