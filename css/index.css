@@ -18,7 +18,44 @@
 	color: red;
 	}
 	 /*-------------------header--------------------*/	
-		}
+	.banner-info {
+	text-align: center;
+	  }
+	.banner-info p:nth-child(1) {
+	font-size: 25px;
+	  }
+	.banner-info p:nth-child(2){
+	font-size: 25px;
+	font-weight: 700;
+	  }
+	.banner-info p:nth-child(3) {
+	font-size: 16px;
+	  }
+	.banner-info p:nth-child(4) {
+ 	font-size: 18px;
+ 	margin: auto;
+ 	padding: 5px;
+ 	background-color: #B2D235;
+ 	width: 250px;
+ 	border-radius: 35px;
+ 	box-shadow: 5px 2px #888888;
+	  }		
+	.banner-info img {
+	 width: 30px;
+		  }
+	.banner-img img {
+	 position: relative;
+	 width: 100%;
+	 margin-top: 70px;
+		  }
+	.fixed {
+	position: fixed;
+	z-index: 100;
+	width: 100vw;
+	background-color: white;
+		}	
+	/*-------------------------banner--------------------*/
+			}
 
 	@media only screen and (max-width: 800px) and (min-width: 700px) {		
 	.navbar-brand img {
@@ -32,7 +69,6 @@
 	margin: auto;
 	margin-top: -30px;
 		}
-
 	.navbar-nav li {
 	margin: 15px;
 	font-weight: 700;		
@@ -42,6 +78,48 @@
 	display: block;	
 		}
 	/* --------------------------header----------------------*/	
+	.banner-info img {
+	width: 40px;
+		}	
+	.banner-hapo
+	.banner-img {
+	width: 100%;
+			}
+	.banner-hapo
+	.banner-info {
+	position: absolute;
+	top: 250px;
+	margin-left: 40px;
+		}
+	.banner-info p{
+	margin-top: 0px;
+		}
+	.banner-info p:nth-child(1){
+	font-size: 25px;
+		}
+	.banner-info p:nth-child(2){
+	font-size: 25px;
+	font-weight: 700;
+	margin-top: -30px;
+		}
+	.banner-info p:nth-child(3){
+	font-size: 15px;
+	margin-top: -20px;
+		}
+	.banner-info p:nth-child(4){
+	font-size: 20px;
+	border-radius: 40px;
+	background-color: #B2D235;
+	width: 200px;
+	text-align: center;
+	padding: 5px 11px 5px 11px;
+	color: white;
+		}
+	.banner-img img {
+	 position: relative;
+	 width: 100%;
+			  }	
+	/* -------------------banner----------------------*/	
 			}
 
 	@media only screen and (max-width: 1500px) and (min-width:1200px) {
@@ -63,4 +141,46 @@
 	color: white !important;
 			}
 	/*--------------------------header---------------------*/
+	.banner-hapo
+	.banner-img {
+	width: 100%;
+		}
+	.banner-hapo
+	.banner-info {
+	position: absolute;
+	top: 250px;
+	margin-left: 40px;
+		}
+	.banner-info p{
+	margin-top: 0px;
+		}
+	.banner-info p:nth-child(1){
+	font-size: 40px;
+		}
+	.banner-info span img {
+	width:50px;
+			}
+	.banner-info p:nth-child(2){
+	font-size: 40px;
+	font-weight: 700;
+	margin-top: -30px;
+		}
+	.banner-info p:nth-child(3){
+	font-size: 20px;
+	margin-top: -20px;
+		}
+	.banner-info p:nth-child(4){
+	font-size: 25px;
+	border-radius: 40px;
+	background-color: #B2D235;
+	width: 400px;
+	text-align: center;
+	padding: 10px 22px 10px 22px;
+	color: white;
+		}
+	.banner-img img {
+	position: relative;
+	width: 100%;	
+			  }	
+	/*------------------------banner-----------*/	
 				}
