@@ -1,0 +1,389 @@
+header {
+	  padding: 10px;
+}
+
+	.navbar {
+	  padding: 0px;
+	}
+
+	@media only screen and (max-width: 500px) {
+	.navbar a.navbar-brand {
+	position: absolute;
+	top: -5px;
+	left: 25%;
+	width: 200px;
+	} 
+		
+	.navbar-brand img {
+	width: 100%;
+	}
+		
+	.nav-link {
+	color: red;
+	}
+	 /*-------------------header--------------------*/	
+	.banner-info {
+	text-align: center;
+	 }
+		
+	.banner-info p:nth-child(1) {
+	font-size: 25px;
+	 }
+		
+	.banner-info p:nth-child(2){
+	font-size: 25px;
+	font-weight: 700;
+	 }
+		
+	.banner-info p:nth-child(3) {
+	font-size: 16px;
+	 }
+		
+	.banner-info p:nth-child(4) {
+ 	font-size: 18px;
+ 	margin: auto;
+ 	padding: 5px;
+ 	background-color: #B2D235;
+ 	width: 250px;
+ 	border-radius: 35px;
+ 	box-shadow: 5px 2px #888888;
+	}
+		
+	.banner-info img {
+	 width: 30px;
+	}
+		
+	.banner-img img {
+	 position: relative;
+	 width: 100%;
+	 margin-top: 70px;
+	}
+		
+	.fixed {
+	position: fixed;
+	z-index: 100;
+	width: 100vw;
+	background-color: white;
+	}	
+		
+	/*-------------------------banner--------------------*/
+	.card-hapo {
+	margin-top: 40px;
+	width: 80%;
+	}
+		
+	.container
+	.card-body h5 {
+		color: #B2D235;
+	}
+		
+	.container
+	.card-body a {
+	background-color: #B2D235;
+	border: none;
+	border-radius: 22px;
+	width: 250px;
+	}
+		
+	.other-courses h1 {
+	margin-top: 30px;
+	}
+		
+	.other-courses h2 {
+	font-size: 30px;
+	color: #B2D235;
+	}
+		
+	.view-courses h1 {
+	color: #B2D235;
+	margin-top: 40px;
+	margin-bottom: 90px;
+	}
+		
+/*----------------cart hapo------------------*/	
+	.bg-whyhapo img {
+	height: 570px;
+	}
+		
+	.laptop {
+	margin-top: -48px;
+	width: 130px;	
+	}
+		
+	.laptop-phone {
+	margin-right: 70px;
+	margin-top: 350px;
+	width: 300px;
+	}
+		
+	.why-hapo h1 {
+	color: white;
+	font-size: 50px;
+	margin: 28px 0px 0px 120px;
+	}
+		
+	.list-whyhapo {
+	margin: 160px 0px 0px 10px;
+	color: white;
+	font-size: 14px;
+	}
+		
+	.list-whyhapo ul li {
+	margin-top: 10px;
+	}
+		
+/* ------------------why-hao------------------*/
+	}
+
+	@media only screen and (max-width: 800px) and (min-width: 700px) {		
+	.navbar-brand img {
+	width: 300px;
+	margin: auto;
+	}
+		
+	.navbar-brand p {
+	text-align: center;
+	}
+		
+	.navbar-nav {
+	margin: auto;
+	margin-top: -30px;
+	}
+		
+	.navbar-nav li {
+	margin: 15px;
+	font-weight: 700;		
+	}
+		
+	.header
+	.navbar {
+	display: block;	
+	}
+		
+	/* --------------------------header----------------------*/	
+	.banner-info img {
+	width: 40px;
+	}	
+	.banner-hapo
+	.banner-img {
+	width: 100%;
+	}
+	.banner-hapo
+	.banner-info {
+	position: absolute;
+	top: 250px;
+	margin-left: 40px;
+	}
+	.banner-info p{
+	margin-top: 0px;
+	}
+	.banner-info p:nth-child(1){
+	font-size: 25px;
+	}
+	.banner-info p:nth-child(2){
+	font-size: 25px;
+	font-weight: 700;
+	margin-top: -30px;
+	}
+	.banner-info p:nth-child(3){
+	font-size: 15px;
+	margin-top: -20px;
+	}
+	.banner-info p:nth-child(4){
+	font-size: 20px;
+	border-radius: 40px;
+	background-color: #B2D235;
+	width: 200px;
+	text-align: center;
+	padding: 5px 11px 5px 11px;
+	color: white;
+	}
+	.banner-img img {
+	 position: relative;
+	 width: 100%;
+	}	
+	/* -------------------banner----------------------*/
+	.container {
+	margin-top: 40px;
+	}
+	.card-body span {
+	display: none;
+	}
+	.container
+	.card-body h5 {
+	color: #B2D235;
+	}
+	.container
+	.card-body a {
+	background-color: #B2D235;
+	border: none;
+	border-radius: 22px;
+	width: 150px;
+	}
+	.other-courses h1 {
+	margin-top: 40px;
+	}
+	.other-courses h2 {
+	font-size: 40px;
+	color: #B2D235;
+	margin-top: -30px;
+	}
+	.view-courses h1 {
+	color: #B2D235;
+	margin-top: 60px;
+	margin-bottom: 90px;
+	}	
+/*-------------------cart hapo------------------*/
+	.laptop {
+	margin-top: -60px;
+	width: 160px;
+	}
+	.laptop-phone {
+	margin-right: 10px;
+	margin-top: 100px;
+	width: 400px;
+	}
+	.why-hapo h1 {
+	color: white;
+	font-size: 40px;
+	margin: 20px 0px 0px 240px;
+	}
+	.list-whyhapo {
+	margin: 180px 0px 0px 0px;
+	color: white;
+	font-size: 14px;
+	}
+	.list-whyhapo ul li {
+	margin-top: 10px;
+	}
+/*----------------why-hapo-------------------*/
+	}
+
+	@media only screen and (max-width: 1500px) and (min-width:1200px) {
+	.navbar-brand img {
+	width: 274px;
+	}
+	#navbarNav {
+	justify-content: flex-end;
+	}
+	.header ul li a {
+	margin: 15px;
+	font-weight: 700;
+	color: black !important;
+	}
+	.header ul li a:hover {
+	padding: 5px 10px 10px 5px;
+	background-color: #B2D235;
+	border-radius: 35px;
+	color: white !important;
+	}
+		
+	/*--------------------------header---------------------*/
+	.banner-hapo
+		
+	.banner-img {
+	width: 100%;
+	}
+	.banner-hapo
+	.banner-info {
+	position: absolute;
+	top: 250px;
+	margin-left: 40px;
+	}
+	.banner-info p{
+	margin-top: 0px;
+	}
+	.banner-info p:nth-child(1){
+	font-size: 40px;
+	}
+	.banner-info span img {
+	width:50px;
+	}
+	.banner-info p:nth-child(2){
+	font-size: 40px;
+	font-weight: 700;
+	margin-top: -30px;
+	}
+	.banner-info p:nth-child(3){
+	font-size: 20px;
+	margin-top: -20px;
+	}
+	.banner-info p:nth-child(4){
+	font-size: 25px;
+	border-radius: 40px;
+	background-color: #B2D235;
+	width: 400px;
+	text-align: center;
+	padding: 10px 22px 10px 22px;
+	color: white;
+	}
+	.banner-img img {
+	position: relative;
+	width: 100%;	
+	}	
+	/*------------------------banner-----------*/	
+	.other-courses h1 {
+	margin-top: 50px;
+	}
+	.other-courses h2 {
+	font-size: 50px;
+	color: #B2D235;
+	margin-top: -50px;
+	margin-bottom: 90px;
+	}
+	.view-courses h1 {
+	color: #B2D235;
+	margin-top: 80px;
+	margin-bottom: 120px;
+	}	
+	.container {
+	margin-top: 30px;
+			}
+	.container
+	.card-body h5 {
+	color: #B2D235;
+	}
+	.container
+	.card-body a {
+	background-color: #B2D235;
+	border: none;
+	border-radius: 22px;
+	width: 200px;
+	}
+/*    CARt -------------------------------*/	
+	.laptop {
+	margin-top: -113px;
+	width: 300px;
+	}
+	.laptop-phone {
+	margin-right: 30px;
+	margin-top: 170px;
+	width: 600px;
+	}
+	.why-hapo h1 {
+	color: white;
+	font-size: 70px;
+	margin: 280px 0px 0px 100px;
+	}
+	.list-whyhapo {
+	margin: 380px 0px 0px 100px;
+	color: white;
+	font-size: 20px;
+	}
+	/*-----------------why hapo----------------*/	
+	}
+
+/*----------general use----------------------*/
+	.why-hapo img:nth-child(1) {
+	width: 100%;
+	}
+	.card-hapo img {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	box-shadow: 1px 1px 12px #888888;
+	}
+	.card-body {
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	box-shadow: 1px 1px 5px #888888;
+	}
